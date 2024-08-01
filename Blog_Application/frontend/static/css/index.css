@@ -1,0 +1,29 @@
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+
+* {
+  font-family:'Roboto';
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+ overflow: hidden;
+ } 
+
+#main {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+}
+
+ /* #app {
+  width: 100%;
+  height: 100%;
+} */
+
+
