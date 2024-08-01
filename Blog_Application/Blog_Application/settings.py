@@ -20,6 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'django-insecure-+p$69w21u1==yzx2h(f%+5@46nr1slyvd$19ckz1zhmm8e7x3s'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -155,12 +156,3 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWS_CREDENTIALS = True
 
 
-AWS_ACCESS_KEY_ID = 'AKIAWFCYKB6AQJUFJKX2'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'blogreactapp'
-AWS_S3_SIGNATURE_NAME = 's3v4',
-AWS_S3_REGION_NAME = 'us-west-1'
-AWS_S3_FILE_OVERWRITE = False
-AWS_DEFAULT_ACL =  None
-AWS_S3_VERITY = True
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
